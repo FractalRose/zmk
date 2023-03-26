@@ -40,6 +40,7 @@ config ZMK_DISPLAY_WORK_QUEUE_SYSTEM
 
 config ZMK_DISPLAY_WORK_QUEUE_DEDICATED
     bool "Use dedicated work queue for UI updates"
+    default y
 
 endchoice
 
